@@ -4,13 +4,11 @@ padding: 94px 0;
 
 .about-list {
 display: flex;
-}
 
-.&__about-item {
+&__about-item {
 width: 270px;
 }
-
-.&__about-item:not(:last-child) {
+&__about-item:not(:last-child) {
 margin-right: 30px;
  }
 }

@@ -9,7 +9,6 @@ display: flex;
 flex-wrap: wrap;
 margin-left: -30px;
 margin-top: -30px;
-}
 
 & > &__item {
 flex-basis: calc(100% / 3 - 30px);
@@ -21,7 +20,6 @@ border: 1px solid var(--card-border-color);
 
 .portfolio__link {
   display: block;
-}
 
 &:hover,
 &:focus {
@@ -38,7 +36,6 @@ overflow: hidden;
 
 .portfolio-info {
 padding: 20px 24px;
-}
 
 &__our-services {
 font-size: 16px;

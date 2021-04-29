@@ -4,7 +4,6 @@ position: absolute;
 display: flex;
 flex-direction: column;
 width: 448px;
-}
 
 &__modal-title {
 font-size: 20px;
@@ -57,7 +56,6 @@ line-height: 1.71;
 .group-input {
 position: relative;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 &:hover .modal-input {
 outline-color: var(--accent-color); 

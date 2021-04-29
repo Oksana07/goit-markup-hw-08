@@ -7,16 +7,15 @@ line-height: 1.14;
 
 .menu__item:not(:last-child) {
 margin-right: 50px;
-}
-
-&__item {
+ }
+ 
+.menu__item__item {
 padding: 32px 0;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: var(--title-color);
- }
 }
 
 .menu__link:hover, 
@@ -36,7 +35,6 @@ background-color: var(--accent-color);
 left: 0px;
 bottom: -32px;
 border-radius: 2px;
-}
 
 &__current {
 color: var(--accent-color);
