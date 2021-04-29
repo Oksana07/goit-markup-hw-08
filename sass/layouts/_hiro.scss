@@ -1,13 +1,45 @@
 .main-hiro {
 margin-left: auto;
 margin-right: auto;
-padding-top: 200px;
+// padding-top: 200px;
+padding-bottom: 118px;
+padding-top: 118px;
 background-image: url(../images/heder.jpg);
 background-repeat: no-repeat;
 background-position: center;
 max-width: 1600px;
-height: 600px;
 background-color: #c4c4c4;
+
+@media screen and (min-width: 480px) {
+    width: 360px;
+ }
+ @media screen and (min-width: 768px) {
+    width: 768px;
+ }
+ @media screen and (min-width: 1200px) {
+    min-width: 1200px;
+ }
+}
+
+.main-hiro__main-title-hiro {
+font-weight: 900;
+// font-size: 44px;
+font-size: 26px;
+// line-height: 1.36;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--waite-bg-color);
+// min-width: 696px;
+margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+
+@media screen and (min-width: 1200px) {
+   font-size: 44px;
+   line-height: 1.36;
+ }
 }
 
 .main-hiro__button {
