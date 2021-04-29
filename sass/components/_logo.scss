@@ -1,0 +1,50 @@
+.logo {
+  display: block;
+}
+
+&__span--accent {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+color: #2196f3; 
+}
+
+&__span--primary {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+color: #000000;
+ }
+}
+
+.pege-header__logo {
+text-decoration: none;
+display: flex;
+margin-right: 93px;
+display: inline-block;
+}
+
+.section-footer .logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--waite-bg-color);
+}
+
+.logo__span--secondary {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #fff;
+}
+
+&:hover,
+&:focus {
+  color: var(--accent-color);
+ }
+}
+
+

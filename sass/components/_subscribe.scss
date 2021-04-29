@@ -1,0 +1,23 @@
+.subscribe-form {
+padding-left: 93px;
+}
+
+.subscribe-label {
+display: inline-flex;
+}
+
+&__subscribe-input {
+width: 358px;
+font-size: 16px;
+line-height: 1.25;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 16px;
+margin-right: 12px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: var(--dark-bg-text-color);
+color: var(--waite-bg-color);
+ }
+}
