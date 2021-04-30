@@ -539,11 +539,6 @@ li {
     width: 360px;
   }
 }
-@media screen and (min-width: 768px) {
-  .main-hiro {
-    width: 768px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .main-hiro {
     min-width: 1200px;
@@ -566,6 +561,7 @@ li {
   .main-hiro__main-title-hiro {
     font-size: 44px;
     line-height: 1.36;
+    min-width: 696px;
   }
 }
 
@@ -799,8 +795,8 @@ li {
 }
 @media screen and (min-width: 768px) {
   .about-list__about-item {
-    width: 350px;
-    margin-left: 30px;
+    width: 354px;
+    margin-left: -30px;
   }
 }
 
@@ -820,13 +816,13 @@ li {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;
   color: var(--title-color);
   margin-bottom: 10px;
 }
 @media screen and (min-width: 768px) {
   .about-list__about-title {
     text-align: left;
+    text-align: center;
   }
 }
 
