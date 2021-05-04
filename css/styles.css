@@ -768,6 +768,7 @@ li {
   .about-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 
@@ -1003,8 +1004,12 @@ li {
 
 .section-team {
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+}
+@media screen and (min-width: 1200px) {
+  .section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .section-team__team-title {
@@ -1017,7 +1022,18 @@ li {
 }
 
 .section-team__team-list {
-  display: flex;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .section-team__team-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-team__team-list {
+    justify-content: space-between;
+  }
 }
 
 .section-team__team-item {
