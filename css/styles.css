@@ -1053,23 +1053,25 @@ li {
   font-weight: bold;
   text-align: center;
   color: var(--title-color);
-  margin-bottom: 50px;
 }
 @media screen and (min-width: 480px) {
   .section-team__team-title {
     font-size: 28px;
     line-height: 1.17;
+    padding-top: 60px;
   }
 }
 @media screen and (min-width: 768px) {
   .section-team__team-title {
     font-size: 36px;
     line-height: 1.16;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 .section-team__team-list {
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 @media screen and (min-width: 768px) {
   .section-team__team-list {
@@ -1090,8 +1092,6 @@ li {
 }
 @media screen and (min-width: 480px) {
   .section-team__team-item {
-    width: 450px;
-    height: 622px;
     margin-bottom: 30px;
   }
 }
@@ -1105,10 +1105,6 @@ li {
   .section-team__team-item {
     margin-right: 30px;
   }
-}
-.section-team__team-item__team-item:not(:last-child) {
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
 
 .section-team__team-itemteam-box {
