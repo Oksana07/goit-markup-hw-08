@@ -4,7 +4,7 @@ font-size: 1.14;
 line-height: 1.14;
 color: var (--info-color); 
 margin-right: auto;
-margin-left: 50px;
+margin-left: 30px;
  }
 
 .icon {
@@ -17,8 +17,19 @@ align-items: center;
 }
 
 .list__contakts {
+
+@media screen and (min-width: 480px){
+display: block;
+display: none;
+}
+ @media screen and (min-width: 768px) {
+ display: block;  
+ display: none;  
+ }
+ @media screen and (min-width: 1200px) {
 display: flex;
 margin-left: auto;
+ }
 }
 
 .link {
@@ -35,4 +46,8 @@ fill: var(--info-color);
 .link__contakts:focus {
 fill: var(--accent-color);
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contakts.link {
+margin-right: auto;
+margin-left: 50px;
 }

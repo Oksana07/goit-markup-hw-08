@@ -390,7 +390,7 @@ li {
   line-height: 1.14;
   color: var --info-color;
   margin-right: auto;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .icon {
@@ -402,9 +402,23 @@ li {
   align-items: center;
 }
 
-.list__contakts {
-  display: flex;
-  margin-left: auto;
+@media screen and (min-width: 480px) {
+  .list__contakts {
+    display: block;
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .list__contakts {
+    display: block;
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list__contakts {
+    display: flex;
+    margin-left: auto;
+  }
 }
 
 .link {
@@ -423,11 +437,30 @@ li {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list__menu {
-  display: flex;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+.contakts.link {
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+@media screen and (min-width: 480px) {
+  .list__menu {
+    display: block;
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .list__menu {
+    display: block;
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list__menu {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
 
 .menu__item:not(:last-child) {

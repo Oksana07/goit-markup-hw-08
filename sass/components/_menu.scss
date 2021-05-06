@@ -1,9 +1,19 @@
 .list__menu {
-display: flex;
+@media screen and (min-width: 480px){
+display: block;
+display: none;
+}
+ @media screen and (min-width: 768px) {
+ display: block;  
+ display: none;  
+ }
+ @media screen and (min-width: 1200px){
+ display: flex;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14;
-}
+line-height: 1.14; 
+ }
+ }
 
 .menu__item:not(:last-child) {
 margin-right: 50px;
