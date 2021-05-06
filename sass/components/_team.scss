@@ -10,7 +10,7 @@ padding-bottom: 30px;
   @media screen and (min-width: 1200px) {
     padding: 94px 0;
   }
- }
+}
 
 .section-team__team-title {
 font-weight: bold;
@@ -61,8 +61,8 @@ margin-right: 30px;
 background: var(--waite-bg-color);
 padding-top: 30px;
 padding-bottom: 30px;
-
-&__team-collaborator {
+}
+.section-team__team-collaborator {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
