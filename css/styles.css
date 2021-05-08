@@ -534,18 +534,14 @@ li {
   height: 11px;
 }
 
-.mobail-overley {
-  width: 100%;
-  height: 100wh;
-}
-
 .mobail-menu {
   position: fixed;
   background-color: white;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100wh;
+  width: 100%;
+  max-width: 480px;
+  height: 100vh;
   padding: 48px 0 40px;
 }
 
@@ -559,6 +555,10 @@ li {
 .mob-menu-list {
   flex-direction: column;
   font-size: 40px;
+}
+
+.mob-menu-item {
+  margin-bottom: 20px;
 }
 
 .mob-menu-link {
@@ -584,6 +584,9 @@ li {
 
 .mob-menu-soc {
   display: flex;
+}
+.mob-menu-soc li {
+  margin-top: 64px;
 }
 .mob-menu-soc li a {
   font-weight: 500;
@@ -1076,7 +1079,7 @@ li {
 }
 @media screen and (min-width: 480px) {
   .customers .customers__customers-item {
-    flex-basis: calc(100% / 2);
+    flex-basis: calc((100% -100%) /2);
     width: 210px;
     height: 92px;
   }

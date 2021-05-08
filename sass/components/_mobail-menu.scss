@@ -16,20 +16,15 @@ width: 19px;
 height: 11px;
 }
 
-.mobail-overley {
- width: 100%;
- height: 100wh; 
-}
-
 .mobail-menu {
 position: fixed;
 background-color: white;
 top: 0;
 left: 0;
-width: 100vw;
-height: 100wh;
+width: 100%;
+max-width: 480px;
+height: 100vh;
 padding: 48px 0 40px;
-
 }
 
 .mob-menu .conteiner {
@@ -37,7 +32,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 height: 100%;
-// z-index: 100%;
+
 }
 
 .mob-menu-list {
@@ -46,8 +41,7 @@ font-size: 40px;
 }
 
 .mob-menu-item {
-
-
+margin-bottom: 20px;
 }
 
 .mob-menu-link {
@@ -58,13 +52,13 @@ font-size: 40px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.02em;
-color: #2196F3;  
+color: #2196F3; 
 }
 
 .mobail-menu-contakts {
-    li {
+    li {   
         a {
-          font-family: Roboto;
+font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 34px;
@@ -79,6 +73,7 @@ color: #2196F3;
 .mob-menu-soc {
     display: flex;
     li {
+        margin-top: 64px;
         a {
 font-weight: 500;
 font-size: 18px;
