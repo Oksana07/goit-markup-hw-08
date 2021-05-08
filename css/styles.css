@@ -524,6 +524,11 @@ li {
 .mobail-button__menu-icon {
   width: 24px;
   height: 16px;
+  margin-left: 176px;
+  cursor: pointer;
+}
+.mobail-button__menu-icon:hover, .mobail-button__menu-icon:focus {
+  fill: #2196F3;
 }
 
 .mobail-button__cross-icon {
@@ -532,6 +537,17 @@ li {
   top: 15px;
   width: 19px;
   height: 11px;
+  cursor: pointer;
+}
+.mobail-button__cross-icon:hover, .mobail-button__cross-icon:focus {
+  fill: #2196F3;
+}
+
+.mobail-button__menu-icon .con-menu {
+  display: block;
+}
+.mobail-button__menu-icon .iicon-close {
+  display: none;
 }
 
 .mobail-menu {
@@ -546,6 +562,7 @@ li {
 }
 .mobail-menu.is-open {
   left: 0;
+  transition: top 5s;
 }
 
 .mob-menu .conteiner {
@@ -572,6 +589,9 @@ li {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #212121;
+}
+.mob-menu-link:hover, .mob-menu-link:focus {
   color: #2196F3;
 }
 
@@ -582,6 +602,9 @@ li {
   font-size: 34px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  color: #212121;
+}
+.mobail-menu-contakts li a:hover, .mobail-menu-contakts li a:focus {
   color: #2196F3;
 }
 
@@ -596,8 +619,11 @@ li {
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  color: #2196F3;
   margin-left: 10px;
+  color: #212121;
+}
+.mob-menu-soc li a:hover, .mob-menu-soc li a:focus {
+  color: #2196F3;
 }
 
 .pege-header {
