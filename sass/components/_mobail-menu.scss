@@ -20,11 +20,15 @@ height: 11px;
 position: fixed;
 background-color: white;
 top: 0;
-left: 0;
+left: 100%;
 width: 100%;
 max-width: 480px;
 height: 100vh;
 padding: 48px 0 40px;
+
+&.is-open {
+left: 0;
+}
 }
 
 .mob-menu .conteiner {
