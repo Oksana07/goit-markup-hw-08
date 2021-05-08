@@ -1,12 +1,18 @@
 .mobail-button {
 background-color: transparent;
 border: none;
+padding: 16px;
+
+ @media screen and (min-width: 768px) {
+     display: block;
+     display: none;
+ }
 }
 
 .mobail-button__menu-icon {
 width: 24px;
 height: 16px;
-margin-left: 176px;
+margin-left: 150px;
 cursor: pointer;
 
 &:hover,
@@ -19,8 +25,8 @@ fill: #2196F3;
 position: absolute;
 right: 15px;
 top: 15px;
-width: 19px;
-height: 11px;
+width: 18px;
+height: 18px;
 cursor: pointer;
 
 &:hover,
@@ -45,7 +51,7 @@ top: 0;
 left: 100%;
 width: 100%;
 max-width: 480px;
-height: 100vh;
+// height: 100vh;
 padding: 48px 0 40px;
 
 &.is-open {
@@ -59,12 +65,12 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 height: 100%;
-
 }
 
-.mob-menu-list {
+.mob-menu-list  {
 flex-direction: column;
 font-size: 40px;
+padding: 40px;
 }
 
 .mob-menu-item {
@@ -88,7 +94,9 @@ color: #2196F3;
 }
 
 .mobail-menu-contakts {
-    li {   
+   padding: 40px;
+    li { 
+        margin-bottom: 32px;  
         a {
 font-family: Roboto;
 font-style: normal;
@@ -108,8 +116,9 @@ color: #2196F3;
 
 .mob-menu-soc {
     display: flex;
+    padding-top: 64px;
+    padding: 40px;
     li {
-        margin-top: 64px;
         a {
 font-weight: 500;
 font-size: 18px;
@@ -117,6 +126,7 @@ line-height: 22px;
 letter-spacing: 0.02em;
 margin-left: 10px;
 color: #212121;
+
 
 &:hover,
 &:focus {
@@ -126,7 +136,6 @@ color: #2196F3;
     }
 }
 
-.mobail-menu-bottom{
-    
-    
+.mobail-menu-bottom {
+  margin-top: 302px;
 }

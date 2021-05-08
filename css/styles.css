@@ -519,12 +519,19 @@ li {
 .mobail-button {
   background-color: transparent;
   border: none;
+  padding: 16px;
+}
+@media screen and (min-width: 768px) {
+  .mobail-button {
+    display: block;
+    display: none;
+  }
 }
 
 .mobail-button__menu-icon {
   width: 24px;
   height: 16px;
-  margin-left: 176px;
+  margin-left: 150px;
   cursor: pointer;
 }
 .mobail-button__menu-icon:hover, .mobail-button__menu-icon:focus {
@@ -535,8 +542,8 @@ li {
   position: absolute;
   right: 15px;
   top: 15px;
-  width: 19px;
-  height: 11px;
+  width: 18px;
+  height: 18px;
   cursor: pointer;
 }
 .mobail-button__cross-icon:hover, .mobail-button__cross-icon:focus {
@@ -557,7 +564,6 @@ li {
   left: 100%;
   width: 100%;
   max-width: 480px;
-  height: 100vh;
   padding: 48px 0 40px;
 }
 .mobail-menu.is-open {
@@ -575,6 +581,7 @@ li {
 .mob-menu-list {
   flex-direction: column;
   font-size: 40px;
+  padding: 40px;
 }
 
 .mob-menu-item {
@@ -595,6 +602,12 @@ li {
   color: #2196F3;
 }
 
+.mobail-menu-contakts {
+  padding: 40px;
+}
+.mobail-menu-contakts li {
+  margin-bottom: 32px;
+}
 .mobail-menu-contakts li a {
   font-family: Roboto;
   font-style: normal;
@@ -610,9 +623,8 @@ li {
 
 .mob-menu-soc {
   display: flex;
-}
-.mob-menu-soc li {
-  margin-top: 64px;
+  padding-top: 64px;
+  padding: 40px;
 }
 .mob-menu-soc li a {
   font-weight: 500;
@@ -624,6 +636,10 @@ li {
 }
 .mob-menu-soc li a:hover, .mob-menu-soc li a:focus {
   color: #2196F3;
+}
+
+.mobail-menu-bottom {
+  margin-top: 302px;
 }
 
 .pege-header {
