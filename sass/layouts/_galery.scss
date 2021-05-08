@@ -1,7 +1,25 @@
 
 .section-portfolio {
-padding-top: 94px;
-padding-bottom: 94px;
+// padding-top: 94px;
+// padding-bottom: 94px;
+ @media screen and (min-width: 480px) {
+  padding: 60px;
+ @media screen and (min-width: 768px) {
+  padding-top: 60px; 
+ }
+  @media screen and (min-width: 1200px) {
+    padding: 60px 0;
+  }
+}
+
+.portfolio__list-button {
+margin-bottom: 46px;
+display: flex;
+justify-content: center;
+}
+
+.portfolio__item-button:not(:last-child) {
+margin-right: 8px;
 }
 
 .portfolio-galery {
