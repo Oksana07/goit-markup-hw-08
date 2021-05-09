@@ -2,6 +2,8 @@
 background-color: transparent;
 border: none;
 padding: 16px;
+width: 40px;
+height: 40px;
 
  @media screen and (min-width: 768px) {
      display: block;
@@ -10,8 +12,7 @@ padding: 16px;
 }
 
 .mobail-button__menu-icon {
-width: 40px;
-height: 40px;
+
 margin-left: 150px;
 cursor: pointer;
 
@@ -36,10 +37,10 @@ fill: #2196F3;
 }
 
 .mobail-button__menu-icon {
-.con-menu {
+.icon-menu {
     display: block;
 }
-.iicon-close {
+.icon-close {
     display: none;
 }
 }
