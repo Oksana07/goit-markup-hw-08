@@ -50,7 +50,8 @@ height: 92px;
  
  }
  @media screen and (min-width: 768px) {
- width: 226px;
+ flex-basis: calc(100% / 3 - 30px);
+width: 226px;
  height: 92px; 
  }
  @media screen and (min-width: 1200px) {
