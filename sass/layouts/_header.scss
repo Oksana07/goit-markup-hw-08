@@ -2,13 +2,19 @@
 border-bottom: 1px solid #ececec;
 
 &__main {
-display: flex;
-align-items: center;
-height: 60px;
+@media screen and (min-width: 480px) {
+   height: 60px;   
 }
+ @media screen and (min-width: 1200px) {
+display: flex;
+align-items: center;    
+ }
+ }
 
 &__navigation {
-display: flex;
-align-items: center;
+@media screen and (min-width: 1200px) {
+ display: flex;
+align-items: center;   
+}
  }
 }
