@@ -4,8 +4,9 @@ display: block;
 display: none;
 }
  @media screen and (min-width: 768px) {
- display: block;  
- display: none;  
+display: flex;
+align-items: center;
+justify-content: center;
  }
  @media screen and (min-width: 1200px){
  display: flex;
@@ -20,7 +21,7 @@ margin-right: 50px;
 }
 
 .menu__item {
-padding: 32px 0;
+// padding: 32px 0;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;

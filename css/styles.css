@@ -404,13 +404,6 @@ li {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .list__contakts {
-    display: block;
-    display: none;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .list__contakts {
     display: flex;
@@ -448,8 +441,9 @@ li {
 
 @media screen and (min-width: 768px) {
   .list__menu {
-    display: block;
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -467,7 +461,6 @@ li {
 }
 
 .menu__item {
-  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -518,6 +511,13 @@ li {
   align-items: center;
   justify-content: center;
   z-index: 105;
+}
+
+@media screen and (min-width: 768px) {
+  .mobail-button {
+    display: block;
+    display: none;
+  }
 }
 
 .mobail-button:hover, .mobail-button:focus {

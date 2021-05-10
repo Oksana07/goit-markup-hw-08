@@ -17,15 +17,10 @@ align-items: center;
 }
 
 .list__contakts {
-
 @media screen and (min-width: 480px){
 display: block;
 display: none;
 }
- @media screen and (min-width: 768px) {
- display: block;  
- display: none;  
- }
  @media screen and (min-width: 1200px) {
 display: flex;
 margin-left: auto;

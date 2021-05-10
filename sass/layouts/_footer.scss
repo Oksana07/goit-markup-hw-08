@@ -9,12 +9,15 @@
 }
 
 .footer-box {
-  display: flex;
+display: flex;
   align-items: baseline;
   @media screen and (max-width: 767px) {
     text-align: center;
     margin-bottom: 60px;
   }
+    @media screen and (max-width: 1200px) {
+      
+    }
 
 &__footer-box-info {
   // margin-right: 70px;

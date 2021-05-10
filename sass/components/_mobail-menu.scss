@@ -1,4 +1,8 @@
 .mobail-button {
+  @media screen and (min-width: 768px){
+display: block;
+display: none;
+}
   background-color: transparent;
   position: absolute;
   border: none;
@@ -15,9 +19,6 @@
   &:focus {
     fill: #2196f3;
 
-    // .mobail-bt {
-
-    // }
   }
 }
 
