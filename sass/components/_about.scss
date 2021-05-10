@@ -21,7 +21,6 @@
   }
 }
 
-
 .about-list__about-item {
 @media screen and (min-width: 768px) {
 width: calc((100% - 2 * 30px)/2);
@@ -33,10 +32,6 @@ flex-basis: calc(100% / 4 - 30px);
  }
  }
 
-// .about-list__about-item:not(:last-child) {
-//   margin-right: 30px;
-//   margin-bottom: 30px;
-// }
 
 .about-list__about-info {
   line-height: 1.71;
