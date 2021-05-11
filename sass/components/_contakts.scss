@@ -21,6 +21,9 @@ align-items: center;
 display: block;
 display: none;
 }
+@media screen and (min-width: 768px){
+
+}
  @media screen and (min-width: 1200px) {
 display: flex;
 margin-left: auto;
