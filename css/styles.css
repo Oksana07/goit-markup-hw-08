@@ -1504,6 +1504,7 @@ li {
 @media screen and (max-width: 768px) {
   .footer-box {
     display: flex;
+    text-align: center;
   }
 }
 
@@ -1685,6 +1686,12 @@ li {
   border-radius: 4px;
   background-color: var(--dark-bg-text-color);
   color: var(--waite-bg-color);
+}
+
+@media screen and (max-width: 768px) {
+  .subscribe-label__subscribe-input {
+    margin-bottom: 20px;
+  }
 }
 
 .subscribe-button {
