@@ -199,7 +199,8 @@ text-align: center;
  @media screen and (max-width: 1199px) {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
+  padding-left: 70px; 
 
  }
 &__subscribe-input {
