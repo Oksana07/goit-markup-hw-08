@@ -15,6 +15,10 @@ margin-right: 10px;
 display: inline-flex;
 align-items: center;  
 }
+:hover,
+.contakts-icon:focus {
+color: var(--accent-color);
+}
 
 .list__contakts {
 @media screen and (min-width: 480px){
