@@ -1,9 +1,9 @@
-.section-team {
+.section {
+padding-bottom: 60px;
+}
+
+.team {
 background-color: #f5f4fa;
-@media screen and (min-width: 1199px) {
-    padding-bottom: 94px;
-    padding-top: 94px;
- }
 }
 
 .section-team__team-title {
@@ -11,18 +11,16 @@ font-weight: bold;
 text-align: center;
 margin-bottom: 50px;
 color: var(--title-color);
+padding-top: 60px; 
 @media screen and (min-width: 480px) {
   font-size: 28px;
-  line-height: 1.17;
-  padding-top: 60px;
+line-height: 1.18;
 }
- @media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
 font-size: 36px;
-line-height: 1.16;
-padding-top: 30px;
-padding-bottom: 30px;
- }
+line-height: 1.17;
 }
+ }
 
 .section-team__team-list {
 @media screen and (min-width: 768px) {
@@ -43,6 +41,8 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 background-color: var(--waite-bg-color);
+ margin-left: 8px;
+margin-bottom: 21px;
 @media screen and (min-width: 480px) {
 margin-bottom: 30px;
 }

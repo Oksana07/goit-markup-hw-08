@@ -1,15 +1,9 @@
-.customers {
-  // @media screen and (min-width: 1119px) {
-  //     padding-bottom: 94px;
-  //     padding-top: 94px;
-  // }
-  @media screen and (min-width: 768px) {
-    padding: 60px;
+.section .customers {
+  padding-top: 60px;
+  padding-bottom: 60px;
   }
-  @media screen and (min-width: 1200px) {
-    padding: 60px;
-  }
-  &__customers-title {
+  
+  .customers__customers-title {
     text-align: center;
     margin-bottom: -30px;
     color: var(--title-color);
@@ -17,8 +11,13 @@
       font-size: 28px;
       line-height: 1.18;
       margin-bottom: 30px;
+      margin-top: 30px;
     }
     @media screen and (min-width: 768px) {
+      font-size: 28px;
+    line-height: 1.18;
+    }
+    @media screen and (min-width: 1200px) {
       font-weight: bold;
       font-size: 36px;
       line-height: 1.16;
@@ -27,8 +26,6 @@
 
   .customers__customers-list {
     @media screen and (min-width: 480px) {
-      margin: 0;
-      padding: 0;
       display: flex;
       flex-wrap: wrap;
       margin-right: -30px;
@@ -37,40 +34,29 @@
     @media screen and (min-width: 1200px) {
       display: flex;
       flex-wrap: wrap;
-      margin-right: -30px;
     }
   }
 
   .customers__customers-list > .customers__customers-item {
+    margin-right: 8px;
+    margin-bottom: 21px;
+    margin-right: 30px;
+      margin-top: 30px;
     @media screen and (min-width: 480px) {
-      flex-basis: calc(100% / 3 - 30px);
+      flex-basis: calc(100% / 2 - 30px);
       width: 210px;
       height: 92px;
-      margin-right: 30px;
-      margin-top: 30px;
     }
     @media screen and (min-width: 768px) {
- flex-basis: calc(100% / 4 - 30px);
+  flex-basis: calc(100% / 3 - 30px);
+   width: 226px;
+      height: 92px;
+    }
+  @media screen and (min-width: 1200px) {
+ flex-basis: calc(100% / 6 - 30px);
     }
   }
 
-  .customers__customers-item {
-    width: 100%;
-    margin-top: 30px;
-
-    @media screen and (min-width: 768px) {
-      flex-basis: calc(100% / 3 - 30px);
-      width: 226px;
-      height: 92px;
-    }
-    @media screen and (min-width: 1200px) {
-      flex-basis: calc((100% - 180px) / 6);
-      width: 170px;
-      height: 92px;
-      margin-left: 30px;
-    }
-  }
-}
 
 .customers__customers-link {
   display: flex;
