@@ -60,7 +60,9 @@ border: 1px solid var(--card-border-color);
 
 .portfolio__link {
   display: block;
-
+   border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 &:hover,
 &:focus {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),

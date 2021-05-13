@@ -1311,6 +1311,9 @@ li {
 
 .portfolio__link {
   display: block;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .portfolio__link:hover, .portfolio__link:focus {
