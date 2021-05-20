@@ -1,3 +1,26 @@
 .menu-tablet {
-    
+   @media screen and (min-width: 480px) {
+display: block;
+display: none;
+ }  
+  @media screen and (min-width: 768px) {
+display: flex;
+margin-left: auto; 
+font-weight: 500;
+font-size: 12px;
+line-height: 1.17px;
+ letter-spacing: 0.02em;
+color: #757575;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+  @media screen and (min-width: 1200px) {
+display: block;
+display: none;  
+  }
+}
+
+.menu-tablet-contakts {
+    margin-left: 510px;
+    margin-bottom: -25px;
+    margin-top: -25px;
 }

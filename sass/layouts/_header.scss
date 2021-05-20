@@ -3,8 +3,11 @@ border-bottom: 1px solid #ececec;
 
 &__main {
 @media screen and (min-width: 480px) {
-   height: 60px;   
+ padding: 20px;  
 }
+ @media screen and (min-width: 768px) {
+align-items: center; 
+ }
  @media screen and (min-width: 1200px) {
 display: flex;
 align-items: center;    

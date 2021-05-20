@@ -18,6 +18,7 @@
 <body>
   <!-- Шапка -->
   <header class="pege-header">
+    
     <div class="conteiner pege-header__main">
       <nav class="pege-header__navigation">
         <a href="./index.html" class="logo pege-header__logo"><span
@@ -51,6 +52,29 @@
           </a>
         </li>
       </ul>
+      <!-- Меню таблетка  -->
+      <div class="menu-tablet">
+        <ul class="menu-tablet-contakts">
+          <li>
+            <a class="link contakts menu__link" href="info@devstudio.com">
+              <div class="contakts-icon">
+                <svg class="icon" width="16px" height="12px">
+                  <use href="./images/symbol-defs.svg#envelope-hover"></use>
+                </svg> info@devstudio.com
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="link contakts menu__link" href="+380961111111">
+              <div class="contakts-icon">
+                <svg class="icon" width="10px" height="16px">
+                  <use href="./images/symbol-defs.svg#smartphone"></use>
+                </svg>
+                +380961111111
+              </div>
+            </a>
+          </li>
+      </div>
       
 <!-- Мобільне меню -->
 <div class="mobail-bt">
@@ -85,7 +109,6 @@
     <li><a href="">LinkedIn</a></li>
   </ul>
   </div>
-  
 </div>
 
 
@@ -95,6 +118,11 @@
 
     <!-- Герой -->
     <section class="main-hiro">
+      <picture>
+     <source srcset="./images/desctop/hero.png.1x,./hero@2xdesktop.img.png.2x" />
+    <source srcset="./images/tablet/header.png.1x,./header@2xtablet.img.png.2x" />
+    <source srcset="./images/mobail/header.png.1x,./header@2xtmobile.img.png.2x" />
+      </picture>
       <h1 class="main-hiro__main-title-hiro">Эффективные решения <br> для вашего бизнеса</h1>
       <button type="button" class="button main-hiro__button" data-modal-open>
         Заказать услугу
@@ -162,7 +190,13 @@
           <li class="business-list__business-img">
             <div class="business-list__work-box">
               <p class="business-list__text-box">Десктопные приложения</p>
-              <img src="./images/photo.jpg" alt="layout" width="370" />
+              <picture>
+              <source srcset="./images/desctop/about1@desctop.img.png .1x ./images/desctop/about1@2xdesktop.img.jpg">
+              <source srcset="./images/tablet/about1@tablet.img.png .1x ./images/tablet/about1@2xtablet.img.jpg">
+              <source srcset="./images/mobile/about1@mobile.img.png .1x ./images/mobile/about1@2xtmobile.img.jpg">
+               <img src="./images/photo.jpg" alt="layout" width="370" /> 
+              </picture>
+              
             </div>
           </li>
           <li class="business-list__business-img">
