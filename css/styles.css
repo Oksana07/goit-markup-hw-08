@@ -627,10 +627,6 @@ li {
   left: auto;
 }
 
-.pege-header {
-  border-bottom: 1px solid #ececec;
-}
-
 @media screen and (min-width: 480px) {
   .pege-header__main {
     padding: 20px;
