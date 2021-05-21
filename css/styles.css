@@ -1503,6 +1503,13 @@ li {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .section-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .conteiner-adress {
     text-align: center;
@@ -1552,6 +1559,13 @@ li {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-box {
+    padding-left: 0;
+    margin-right: 70px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .footer-box__footer-box-info {
     text-align: center;
@@ -1563,6 +1577,14 @@ li {
     box-sizing: border-box;
     margin-left: 61px;
     margin-right: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-box__footer-box-info {
+    text-align: start;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -1601,13 +1623,23 @@ li {
 
 .footer-adress {
   box-sizing: border-box;
-  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 480px) {
   .footer-adress {
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-adress {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-adress {
+    margin-bottom: 60px;
   }
 }
 
@@ -1640,8 +1672,26 @@ li {
   display: inline-block;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__footer-list {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__footer-list__footer-item {
+    padding-left: 0;
+  }
+}
+
 .footer-box-social {
   display: inline-block;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-box-social {
+    margin-right: 80px;
+  }
 }
 
 .footer-title__section-title {
@@ -1663,6 +1713,12 @@ li {
   .footer-title__section-title {
     margin-bottom: 20px;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-title__section-title {
+    text-align: start;
   }
 }
 
@@ -1727,9 +1783,7 @@ li {
 @media screen and (min-width: 1200px) {
   .subscribe-label {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-items: center;
+    margin-left: 0;
   }
 }
 
