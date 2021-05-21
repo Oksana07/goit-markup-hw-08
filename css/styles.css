@@ -1497,6 +1497,13 @@ li {
 }
 
 @media screen and (min-width: 768px) {
+  .section-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .conteiner-adress {
     text-align: center;
     margin-right: 50px;
@@ -1522,6 +1529,7 @@ li {
 @media screen and (min-width: 768px) {
   .conteiner-blok {
     display: flex;
+    margin: 0;
   }
 }
 
@@ -1632,13 +1640,8 @@ li {
   display: inline-block;
 }
 
-@media screen and (min-width: 768px) {
-  .footer-box-social {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 60px;
-  }
+.footer-box-social {
+  display: inline-block;
 }
 
 .footer-title__section-title {
@@ -1753,7 +1756,6 @@ li {
 
 @media screen and (min-width: 768px) {
   .subscribe-label__subscribe-input {
-    margin-bottom: 20px;
     width: 450px;
   }
 }
